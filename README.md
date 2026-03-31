@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icon.png" width="128" height="128" alt="PyTown Logo">
+  <img src="icon.png" width="512" height="512" alt="PyTown Logo">
   
   # PyTown
 
