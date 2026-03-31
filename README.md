@@ -28,23 +28,6 @@ PyTown is built entirely on Python's built-in standard libraries (Tkinter, urlli
 python main.py
 ```
 
-## 📦 Building the Standalone `.exe`
-
-Want to ship PyTown to someone without them needing to open a terminal? PyTown can be flawlessly bundled into a pristine, single-file Windows Executable (`.exe`) using PyInstaller.
-
-1. Install PyInstaller via `pip`:
-```bash
-python -m pip install pyinstaller
-```
-
-2. Compile PyTown securely into an executable:
-```bash
-python -m PyInstaller --noconfirm --onefile --windowed --add-data "icon.png;." --name PyTown main.py
-```
-> The `--windowed` flag specifically ensures that the ugly black CMD terminal box is suppressed, leaving only PyTown's beautiful graphical interface.
-
-3. Locate your compiled application in the `dist/` directory!
-
 ## 📜 License
 
 MIT License. Do whatever you want with the code!
